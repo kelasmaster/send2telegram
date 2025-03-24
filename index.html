@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send to Telegram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Send to Telegram</h1>
+        <form id="text-form">
+            <label for="text">Enter Text:</label>
+            <textarea id="text" name="text" required></textarea>
+            <button type="submit">Send Text</button>
+        </form>
+        <form id="image-form" enctype="multipart/form-data">
+            <label for="image">Upload Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <button type="submit">Send Image</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
