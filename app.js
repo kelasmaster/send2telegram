@@ -4,8 +4,8 @@ const multer = require('multer');
 const app = express();
 const upload = multer({ dest: 'uploads/' });
 
-const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
-const CHAT_ID = 'YOUR_CHAT_ID';
+const TELEGRAM_BOT_TOKEN = '5873360141:AAGHq0sB7x_aYIngH_KmwTyjLavt4CppUIg';
+const CHAT_ID = '1002066424409_362';
 
 // Route to send text
 app.post('/send-text', express.json(), async (req, res) => {
